@@ -9,6 +9,7 @@ import { can, canTransition, isStaff, netSalesMinor, type OrderStatus } from "@/
 import { sendTransactional } from "@/lib/email";
 
 export async function requireStaff(permission: string) {
+  await connection();
   const auth = await getAuth();
   const session = await auth.api.getSession({ headers: await headers() });
   const role = (session?.user as { role?: string } | undefined)?.role;

@@ -19,7 +19,7 @@ export function MobileNav({
           <div className="grid gap-3">
             <Link href="/" onClick={() => setOpen(false)}>Početna</Link>
             <Link href="/proizvodi" onClick={() => setOpen(false)}>{labels.shop}</Link>
-            <Link href="/#kolekcije" onClick={() => setOpen(false)}>Kolekcije</Link>
+            <Link href={{ pathname: "/", hash: "#kolekcije" }} onClick={() => setOpen(false)}>Kolekcije</Link>
             <Link href="/pitanja" onClick={() => setOpen(false)}>Pitanja</Link>
             <Link href="/o-nama" onClick={() => setOpen(false)}>{labels.about}</Link>
             <Link href="/paketi" onClick={() => setOpen(false)}>Paketi</Link>

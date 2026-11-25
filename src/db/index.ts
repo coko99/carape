@@ -1,5 +1,6 @@
 import type { NeonDatabase } from "drizzle-orm/neon-serverless";
 import type { PgliteDatabase } from "drizzle-orm/pglite";
+import { connection } from "next/server";
 import * as schema from "./schema";
 
 export type AppDatabase = NeonDatabase<typeof schema> | PgliteDatabase<typeof schema>;
@@ -41,7 +42,6 @@ export function getDb() {
 }
 
 export async function requireDb() {
-  const { connection } = await import("next/server");
   await connection();
   const db = await getDb();
   if (!db) {

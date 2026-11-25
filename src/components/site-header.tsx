@@ -26,7 +26,7 @@ export async function SiteHeader({ locale }: { locale: "sr" | "en" }) {
         <nav className="hidden items-center gap-7 md:flex" aria-label="Main">
           <Link className="nav-link" href="/">{locale === "sr" ? "Početna" : "Home"}</Link>
           <Link className="nav-link" href="/proizvodi">{t("shop")}</Link>
-          <Link className="nav-link" href="/#kolekcije">{locale === "sr" ? "Kolekcije" : "Collections"}</Link>
+          <Link className="nav-link" href={{ pathname: "/", hash: "#kolekcije" }}>{locale === "sr" ? "Kolekcije" : "Collections"}</Link>
           <Link className="nav-link" href="/pitanja">{locale === "sr" ? "Pitanja" : "FAQ"}</Link>
           <Link className="nav-link" href="/o-nama">{locale === "sr" ? "Naša priča" : "Our story"}</Link>
         </nav>

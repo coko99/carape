@@ -2,14 +2,17 @@ import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { nextCookies } from "better-auth/next-js";
 import { twoFactor } from "better-auth/plugins/two-factor";
-import { requireDb } from "@/db";
+import { getDb } from "@/db";
 import * as schema from "@/db/schema";
 import { sendTransactional } from "@/lib/email";
 
 let authPromise: ReturnType<typeof buildAuth> | null = null;
 
 function buildAuth() {
-  return requireDb().then((db) =>
+  return getDb().then((db) => {
+    if (!db) throw new Error("DATABASE_URL is not configured.");
+    return db;
+  }).then((db) =>
     betterAuth({
       database: drizzleAdapter(db, {
         provider: "pg",
@@ -48,6 +51,11 @@ function buildAuth() {
 }
 
 export async function getAuth() {
-  authPromise ??= buildAuth();
+  if (!authPromise) {
+    authPromise = buildAuth().catch((error) => {
+      authPromise = null;
+      throw error;
+    });
+  }
   return authPromise;
 }
