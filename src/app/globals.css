@@ -876,3 +876,80 @@ body {
     radial-gradient(700px 380px at 100% 0%, rgb(22 53 44 / 0.06), transparent 55%),
     #f7f7f5;
 }
+
+.gate {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.85rem;
+  min-height: 100vh;
+  padding: 2rem 1.25rem;
+  text-align: center;
+  background:
+    radial-gradient(520px 280px at 50% 0%, rgb(47 158 62 / 0.14), transparent 70%),
+    #f7f7f5;
+}
+.gate h1 { margin: 0; font-size: clamp(2.4rem, 6vw, 4.2rem); letter-spacing: -0.045em; }
+.gate p { margin: 0; color: var(--muted); }
+.gate form {
+  display: grid;
+  gap: 0.7rem;
+  width: min(22rem, 100%);
+  margin-top: 0.6rem;
+  padding: 1rem;
+  border: 1px solid rgb(255 255 255 / 0.75);
+  border-radius: 1.4rem;
+  background: rgb(255 255 255 / 0.62);
+  box-shadow: 0 24px 60px rgb(0 0 0 / 0.08), inset 0 1px 0 white;
+  backdrop-filter: blur(18px) saturate(1.4);
+}
+.gate label { display: grid; gap: 0.35rem; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; text-align: left; }
+.gate input[type="password"] {
+  min-height: 3rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 1rem;
+  background: white;
+  font: inherit;
+  letter-spacing: 0.28em;
+  text-align: center;
+}
+.gate-error { color: var(--clay); font-size: 0.92rem; }
+
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.85rem;
+  background: #f6f6f4;
+  transition: opacity 0.45s ease, visibility 0.45s ease;
+}
+.preloader.is-out { opacity: 0; visibility: hidden; }
+.preloader strong {
+  font-size: clamp(3.2rem, 9vw, 6.4rem);
+  letter-spacing: -0.06em;
+  line-height: 0.9;
+}
+.preloader em { color: var(--muted); font-style: normal; letter-spacing: 0.18em; text-transform: uppercase; font-size: 0.72rem; }
+.preloader-line {
+  width: min(14rem, 46vw);
+  height: 2px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgb(17 17 17 / 0.08);
+}
+.preloader-line::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 40%;
+  background: var(--leaf);
+  animation: preloader-sweep 1.15s ease-in-out infinite;
+}
+@keyframes preloader-sweep {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(320%); }
+}

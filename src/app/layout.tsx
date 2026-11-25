@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { SitePreloader } from "@/components/site-preloader";
 import "./globals.css";
 
 const sans = Montserrat({
@@ -23,7 +24,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className="min-h-full antialiased">{children}</body>
+      <body className="min-h-full antialiased">
+        <SitePreloader />
+        {children}
+      </body>
     </html>
   );
 }
