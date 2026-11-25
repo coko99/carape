@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "ŽA-JO KOMERC — proizvodnja čarapa, Kruševac",
+    "description": "Pamučne čarape i hulahopi proizvođača ŽA-JO KOMERC iz Kruševca. Katalog prenet sa proizvodnjacarapa.com."
+  },
+  "nav": {
+    "shop": "Prodavnica",
+    "about": "Proizvođač",
+    "custom": "Po meri",
+    "bundles": "Paketi",
+    "wholesale": "Veleprodaja",
+    "design": "Dizajn",
+    "contact": "Kontakt",
+    "account": "Nalog",
+    "cart": "Korpa",
+    "search": "Pretraga",
+    "menu": "Meni",
+    "language": "English"
+  },
+  "home": {
+    "kicker": "Kruševac · od 1992.",
+    "title": "Čarape iz radionice, ne iz šablona.",
+    "text": "ŽA-JO KOMERC plete pamučni program na italijanskim kružnim mašinama. Ovde je katalog koji je zaista bio na proizvodnjacarapa.com — sa istim nazivima i cenama.",
+    "cta": "Pogledajte katalog",
+    "secondary": "Čarape po meri",
+    "categories": "Programi",
+    "featured": "Najtraženije na dosadašnjem sajtu",
+    "featuredNote": "Označeno jer su bili u kategoriji Najtraženiji proizvodi ili na naslovnoj strani. Nije merenje prodaje iz ove prodavnice.",
+    "story": "Iz Kruševca",
+    "qualityTitle": "Šta je objavljeno o izradi",
+    "quality": [
+      "Kružne mašine Cessare Colosio i Lonati",
+      "Češljani i mercerizirani pamuk, prema tekstu proizvođača",
+      "Dorada na mašinama Union Special, Mauser Special, Cetme i Rosso"
+    ],
+    "b2bTitle": "Veleprodaja i izvoz",
+    "b2b": "Firma navodi izvoz na tržišta EU, Rusije i bivših jugoslovenskih republika. Veleprodajni cenovnik nije javan.",
+    "newsletter": "Obaveštenja",
+    "newsletterText": "Adresa se čuva samo ako označite saglasnost. Ne šaljemo poruke dok imejl servis nije povezan.",
+    "emptyNew": "Nijedan proizvod još nije označen kao nov. To se radi u administraciji, bez nagađanja datuma."
+  },
+  "shop": {
+    "title": "Sve čarape",
+    "filters": "Filteri",
+    "sort": "Redosled",
+    "featured": "Istaknuto",
+    "newest": "Poslednje uneto",
+    "priceAsc": "Cena, rastuće",
+    "priceDesc": "Cena, opadajuće",
+    "name": "Naziv",
+    "size": "Veličina",
+    "audience": "Program",
+    "all": "Sve",
+    "available": "Na stanju",
+    "sale": "Sniženje",
+    "empty": "Nema proizvoda za ovaj izbor.",
+    "results": "proizvoda"
+  },
+  "audiences": {
+    "men": "Muški",
+    "women": "Ženski",
+    "children": "Dečiji",
+    "baby": "Bebe",
+    "sport": "Sport",
+    "medical": "Medicinski"
+  },
+  "product": {
+    "size": "Veličina",
+    "add": "Dodaj u korpu",
+    "quickAdd": "Dodaj",
+    "added": "Dodato u korpu",
+    "addedShort": "Dodato",
+    "sku": "Šifra",
+    "skuMissing": "Nije objavljena",
+    "priceNote": "Ista objavljena cena za sve navedene veličine.",
+    "stockKnown": "Na stanju",
+    "stockUnknown": "Označeno kao dostupno. Tačna količina nije bila objavljena.",
+    "stockOut": "Nije na stanju",
+    "material": "Sastav",
+    "materialMissing": "Sastav nije bio u javnom katalogu.",
+    "washingMissing": "Uputstvo za održavanje nije bilo u javnom katalogu.",
+    "related": "Iz istog programa",
+    "recent": "Nedavno gledano"
+  },
+  "cart": {
+    "title": "Korpa",
+    "empty": "Korpa je prazna.",
+    "remove": "Ukloni",
+    "checkout": "Nastavite na porudžbinu",
+    "goods": "Proizvodi",
+    "shipping": "Dostava",
+    "shippingPending": "Biće potvrđena",
+    "total": "Za proizvode",
+    "totalKnown": "Ukupno"
+  },
+  "checkout": {
+    "title": "Porudžbina",
+    "contact": "Kontakt",
+    "address": "Adresa",
+    "payment": "Plaćanje",
+    "cod": "Pouzećem",
+    "bank": "Uplatnica",
+    "bankNote": "Broj računa još nije unet. Instrukciju šaljemo kada bude sačuvan u podešavanjima.",
+    "coupon": "Kupon",
+    "note": "Napomena",
+    "place": "Pošalji porudžbinu",
+    "disabled": "Kupovina traži povezanu bazu. Katalog se i dalje može gledati.",
+    "errors": {
+      "invalid": "Proverite označena polja.",
+      "empty": "Korpa je prazna.",
+      "stock": "Količina više nije dostupna.",
+      "coupon": "Kupon nije važeći.",
+      "minimum": "Iznos je ispod minimalne porudžbine.",
+      "variant": "Proizvod više nije u ponudi.",
+      "failed": "Porudžbina nije sačuvana. Pokušajte ponovo.",
+      "rate": "Sačekajte malo pre nove porudžbine."
+    }
+  },
+  "order": {
+    "title": "Porudžbina je primljena",
+    "notReceipt": "Ovo nije fiskalni račun.",
+    "track": "Pratite porudžbinu brojem i e-poštom sa koje je poslata."
+  },
+  "account": {
+    "login": "Prijava",
+    "register": "Nalog",
+    "logout": "Odjava",
+    "email": "E-pošta",
+    "password": "Lozinka",
+    "name": "Ime i prezime",
+    "forgot": "Zaboravljena lozinka",
+    "orders": "Porudžbine",
+    "noOrders": "Još nema porudžbina na ovom nalogu."
+  },
+  "forms": {
+    "send": "Pošalji",
+    "consent": "Slažem se da ŽA-JO KOMERC sačuva ovu adresu radi obaveštenja.",
+    "sent": "Sačuvano.",
+    "file": "Crtež ili logo"
+  },
+  "legal": {
+    "review": "Tekst čeka pravnu proveru. Nedostaju PIB, matični broj i tekući račun."
+  }
+}

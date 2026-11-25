@@ -1,0 +1,51 @@
+{
+  "name": "carape",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx scripts/ensure-db.ts && next dev",
+    "build": "tsx scripts/ensure-db.ts && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --test src/lib/commerce.test.ts src/lib/advanced.test.ts src/lib/search.test.ts",
+    "db:setup": "tsx scripts/ensure-db.ts",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.14",
+    "@hookform/resolvers": "^7.0.1",
+    "@neondatabase/serverless": "^1.2.0",
+    "better-auth": "^1.7.15",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.4",
+    "lucide-react": "^1.67.0",
+    "next": "16.4.4",
+    "next-intl": "^4.14.9",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "^7.91.0",
+    "resend": "^6.37.0",
+    "sharp": "^0.35.5",
+    "tailwind-merge": "^3.7.0",
+    "ws": "^8.22.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.4",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/ws": "^8.18.2",
+    "dotenv": "^18.0.9",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.4",
+    "fflate": "^0.8.3",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

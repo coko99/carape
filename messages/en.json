@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "ŽA-JO KOMERC — sock manufacturer, Kruševac",
+    "description": "Cotton socks and tights from ŽA-JO KOMERC in Kruševac. Catalog migrated from proizvodnjacarapa.com."
+  },
+  "nav": {
+    "shop": "Shop",
+    "about": "The maker",
+    "custom": "Custom",
+    "bundles": "Bundles",
+    "wholesale": "Wholesale",
+    "design": "Design",
+    "contact": "Contact",
+    "account": "Account",
+    "cart": "Bag",
+    "search": "Search",
+    "menu": "Menu",
+    "language": "Srpski"
+  },
+  "home": {
+    "kicker": "Kruševac · since 1992.",
+    "title": "Socks from the mill, not from a template.",
+    "text": "ŽA-JO KOMERC knits its cotton range on Italian circular machines. This catalog is the one that was actually on proizvodnjacarapa.com — same names and prices.",
+    "cta": "Browse the catalog",
+    "secondary": "Custom socks",
+    "categories": "Ranges",
+    "featured": "Marked as most requested on the previous site",
+    "featuredNote": "Shown because they were in the Bestsellers category or on the old homepage. This is not a sales ranking from this shop.",
+    "story": "From Kruševac",
+    "qualityTitle": "What the maker published",
+    "quality": [
+      "Cessare Colosio and Lonati circular machines",
+      "Combed and mercerised cotton, as described by the maker",
+      "Finishing on Union Special, Mauser Special, Cetme and Rosso"
+    ],
+    "b2bTitle": "Wholesale and export",
+    "b2b": "The company says it exports to the EU, Russia and the former Yugoslav republics. Wholesale prices are not public.",
+    "newsletter": "Notes",
+    "newsletterText": "The address is stored only if you consent. Messages are not sent until email is connected.",
+    "emptyNew": "No product is marked as new yet. That is set in the admin, without guessing a date."
+  },
+  "shop": {
+    "title": "All socks",
+    "filters": "Filters",
+    "sort": "Sort",
+    "featured": "Featured",
+    "newest": "Recently added",
+    "priceAsc": "Price, low to high",
+    "priceDesc": "Price, high to low",
+    "name": "Name",
+    "size": "Size",
+    "audience": "Range",
+    "all": "All",
+    "available": "In stock",
+    "sale": "Sale",
+    "empty": "Nothing matches this selection.",
+    "results": "products"
+  },
+  "audiences": {
+    "men": "Men",
+    "women": "Women",
+    "children": "Children",
+    "baby": "Baby",
+    "sport": "Sport",
+    "medical": "Medical"
+  },
+  "product": {
+    "size": "Size",
+    "add": "Add to bag",
+    "quickAdd": "Add",
+    "added": "Added to bag",
+    "addedShort": "Added",
+    "sku": "Article code",
+    "skuMissing": "Not published",
+    "priceNote": "The same published price for every listed size.",
+    "stockKnown": "In stock",
+    "stockUnknown": "Marked available. An exact quantity was not published.",
+    "stockOut": "Out of stock",
+    "material": "Composition",
+    "materialMissing": "Composition was not in the public catalog.",
+    "washingMissing": "Care instructions were not in the public catalog.",
+    "related": "From the same range",
+    "recent": "Recently viewed"
+  },
+  "cart": {
+    "title": "Bag",
+    "empty": "Your bag is empty.",
+    "remove": "Remove",
+    "checkout": "Continue to order",
+    "goods": "Goods",
+    "shipping": "Delivery",
+    "shippingPending": "To be confirmed",
+    "total": "Goods total",
+    "totalKnown": "Total"
+  },
+  "checkout": {
+    "title": "Order",
+    "contact": "Contact",
+    "address": "Address",
+    "payment": "Payment",
+    "cod": "Cash on delivery",
+    "bank": "Bank transfer",
+    "bankNote": "The account number is not on file yet. Instructions are sent after it is saved in settings.",
+    "coupon": "Coupon",
+    "note": "Note",
+    "place": "Place order",
+    "disabled": "Checkout needs a connected database. The catalog can still be browsed.",
+    "errors": {
+      "invalid": "Check the highlighted fields.",
+      "empty": "Your bag is empty.",
+      "stock": "That quantity is no longer available.",
+      "coupon": "This coupon is not valid.",
+      "minimum": "The amount is below the minimum order.",
+      "variant": "This product is no longer offered.",
+      "failed": "The order was not saved. Try again.",
+      "rate": "Wait a moment before another order."
+    }
+  },
+  "order": {
+    "title": "Order received",
+    "notReceipt": "This is not a fiscal receipt.",
+    "track": "Track it with the order number and the email you used."
+  },
+  "account": {
+    "login": "Sign in",
+    "register": "Account",
+    "logout": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "forgot": "Forgot password",
+    "orders": "Orders",
+    "noOrders": "No orders on this account yet."
+  },
+  "forms": {
+    "send": "Send",
+    "consent": "I agree that ŽA-JO KOMERC may store this address for updates.",
+    "sent": "Saved.",
+    "file": "Sketch or logo"
+  },
+  "legal": {
+    "review": "This text is waiting for legal review. Tax ID, company number and bank account are missing."
+  }
+}
